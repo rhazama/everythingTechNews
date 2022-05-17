@@ -5,27 +5,27 @@ const userData = [
     {
         username: 'adelle21',
         email: 'adelle12@gmail.com',
-        password: 'nonono'
+        password: 'password321'
     }, {
-        username: '',
-        email: '',
-        password: ''
+        username: 'tarah98',
+        email: 'tarah98@gmail.com',
+        password: 'password321'
     }, {
-        username: '',
-        email: '',
-        password: ''
+        username: 'Rhaza90',
+        email: 'rHaza90@gmail.com',
+        password: 'password321'
     }, {
-        username: '',
-        email: '',
-        password: ''
+        username: 'happyday10',
+        email: 'happyhappy31@gmail.com',
+        password: 'password321'
     }, {
-        username: '',
-        email: '',
-        password: ''
+        username: 'codingRocks02',
+        email: 'codingrocks23@gmail.com',
+        password: 'password321'
     }, {
-        username: '',
-        email: '',
-        password: ''
+        username: 'noway64',
+        email: 'noway64@yahoo.com',
+        password: 'password321'
     }
 ];
 
