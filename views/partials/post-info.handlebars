@@ -1,0 +1,12 @@
+<article class="post">
+    <div class="title">
+        <h2>{{title}}</h2>
+        <p>{{post_text}}</p>
+    </div>
+    <div class="meta">
+        by {{user.username}} on {{format_date created_at}}
+        |
+        <!--doublecheck the route-->
+        <a href="../controllers/api/post-routes.js/{{post.id}}" class="text-decoration-none btn btn-outline-dark ">{{comments.lengths}} {{format_plural "comment" comments.legnths}}</a>
+    </div>
+</article>

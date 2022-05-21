@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Everything Tech News</title>
+  <link rel="stylesheet" href="../../public/stylesheets/style.css">
+  <!--insert bootstrap-->
+  <link rel="stylesheet" href="//bootstrap">
+</head>
+
+<body>
+    <dv class="container-fluid bg-secondary text-light min-vh-100">
+        <header>
+            <h1 class="h1 fw-bold">
+                Everything Tech News
+            </h1>
+            <nav>
+                {{#if loggedIn}}
+                <a href="./main.handlebars" class="btn text-light">Home</a>
+                <a href="../dashboard.handlebars" class="btn text-info">Dashboard</a>
+                <button id="logout" class="btn text-info">Logout</button>
+                {{else}}
+                <a href="../homepage.handlebars" class="btn text-light">Home</a>
+                <a href="../login.handlebars" class="btn text-light">Login</a>
+                {{/if}}
+            </nav>
+        </header>
+        <main>
+            {{{ body }}}
+        </main>
+        <footer>
+            Thanks for stopping by!
+        </footer>
+    </dv>
+
+    {{#if loggedIn}}
+    <script src="../public/javascript/logout.js"></script>
+    {{/if}}
+</body>
+</html>
